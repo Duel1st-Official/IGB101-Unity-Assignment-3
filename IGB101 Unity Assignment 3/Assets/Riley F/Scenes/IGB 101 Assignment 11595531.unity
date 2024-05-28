@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.43718317, g: 0.75444984, b: 1.0290304, a: 1}
+  m_IndirectSpecularColor: {r: 0.15896621, g: 0.51753515, b: 1.0392404, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -251,8 +251,7 @@ MonoBehaviour:
   maxPickups: 5
   levelComplete: 0
   pickupText: {fileID: 1227736612}
-  audioSources:
-  - {fileID: 1086723536}
+  audioSources: []
   audioProximity: 5
 --- !u!4 &239753093
 Transform:
@@ -764,7 +763,7 @@ MonoBehaviour:
   upAngleView: 45
   downAngleView: 65
   MaxViewDistance: 15
-  MinViewDistance: 7
+  MinViewDistance: 1
   ZoomRate: 20
   cameraTargetHeight: 1
 --- !u!81 &599797724
@@ -946,18 +945,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c1f59f1deda5b3746b0ceb2508b8b524, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cameraNodes:
-  - {fileID: 2076453099}
-  - {fileID: 1413179237}
-  - {fileID: 1721752045}
-  - {fileID: 303823577}
-  objects:
-  - {fileID: 1243028776}
-  - {fileID: 1086723535}
-  - {fileID: 1565686903}
-  - {fileID: 330856266}
-  moveSpeed: 10
-  rotSpeed: 10
+  cameraNodes: []
+  objects: []
+  moveSpeed: 5
+  rotSpeed: 5
 --- !u!1 &800102684
 GameObject:
   m_ObjectHideFlags: 0
